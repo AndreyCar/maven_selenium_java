@@ -7,7 +7,7 @@ public class Hooks extends CommonMethods {
 
     @BeforeClass
     public void SetUp() {
-        runBrowser();
+        exe();
     }
 
     @AfterClass

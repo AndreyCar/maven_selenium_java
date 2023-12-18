@@ -18,5 +18,8 @@ public class Login extends Hooks {
         // wait for the sidebar of the Inventory page,
         // which means that we have successfully logged in
         waitForVisibility(inventoryPage.btnExtendSidebarMenu());
+
+        // waitForVisibility(loginPage.btnLogin());
+
     }
 }
